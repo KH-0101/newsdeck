@@ -1,5 +1,5 @@
 {
-  "excludeKeywords": ["PR", "[PR]", "【PR】", "広告", "提供", "スポンサー", "タイアップ", "Sponsored", "AD"],
+  "excludeKeywords": ["PR", "[PR]", "【PR】", "【広告】", "[広告]", "提供：", "提供:", "【スポンサー】", "スポンサード", "タイアップ", "Sponsored", "AD"],
   "feeds": [
     { "id": "nhk-main", "name": "NHKニュース 主要", "url": "https://www.nhk.or.jp/rss/news/cat0.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
     { "id": "nhk-society", "name": "NHKニュース 社会", "url": "https://www.nhk.or.jp/rss/news/cat1.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },

@@ -11,7 +11,7 @@
   - 完了条件: `git status` に `.env` と `public/` が出ない。最初のコミットの前に `.gitignore` が入っている。
 - [ ] **T0-3【ユーザー】GitHub に公開リポジトリを作り、push する** … Settings > Code security で **Secret scanning** と **Push protection** を有効にする。Settings > Pages の Source を **GitHub Actions** にする。
   - 完了条件: 3つの設定が有効になっていることを、ユーザーが画面で確認している。
-- [ ] **T0-4 feeds.json を作る** … T0-1 で選んだ情報源と、全体共通の除外キーワードを入れる。
+- [x] **T0-4 feeds.json を作る** … T0-1 で選んだ情報源と、全体共通の除外キーワードを入れる。
   - 完了条件: SPEC 5.1 の形式どおりになっている（検証は T1-1 で行う）。
 
 ## P1 取得

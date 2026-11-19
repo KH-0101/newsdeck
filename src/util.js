@@ -126,10 +126,10 @@ export function weekday(dateStr) {
   return WEEKDAYS[new Date(`${dateStr}T00:00:00Z`).getUTCDay()];
 }
 
-/** 記事の時刻表示。ページの前日より前なら MM/DD HH:MM、そうでなければ HH:MM。無ければ空文字。 */
+/** 記事の時刻表示。ページの日付と同じ日なら HH:MM、違う日なら MM/DD HH:MM（D-24）。無ければ空文字。 */
 export function formatItemTime(iso, pageDate) {
   if (!iso) return '';
   const date = jstDate(iso);
-  if (date < addDays(pageDate, -1)) return `${date.slice(5, 7)}/${date.slice(8, 10)} ${jstTime(iso)}`;
+  if (date !== pageDate) return `${date.slice(5, 7)}/${date.slice(8, 10)} ${jstTime(iso)}`;
   return jstTime(iso);
 }

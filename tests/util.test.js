@@ -70,9 +70,9 @@ test('addDays と weekday', () => {
   assert.equal(weekday('2026-11-20'), '金');
 });
 
-test('formatItemTime: 前日より前なら日付も出す', () => {
+test('formatItemTime: ページの日付と違う日なら日付も出す（D-24）', () => {
   assert.equal(formatItemTime('2026-11-20T05:40:00+09:00', '2026-11-20'), '05:40');
-  assert.equal(formatItemTime('2026-11-19T23:10:00+09:00', '2026-11-20'), '23:10');
+  assert.equal(formatItemTime('2026-11-19T23:10:00+09:00', '2026-11-20'), '11/19 23:10');
   assert.equal(formatItemTime('2026-11-18T23:10:00+09:00', '2026-11-20'), '11/18 23:10');
   assert.equal(formatItemTime(null, '2026-11-20'), '');
 });

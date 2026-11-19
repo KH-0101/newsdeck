@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Atom テスト</title>
+  <link href="https://blog.example.com/"/>
+  <id>tag:blog.example.com,2026:feed</id>
+  <updated>2026-11-19T10:00:00Z</updated>
+  <entry>
+    <title>Atom の記事</title>
+    <link href="https://blog.example.com/posts/hello"/>
+    <id>tag:blog.example.com,2026:hello</id>
+    <updated>2026-11-19T10:00:00Z</updated>
+    <published>2026-11-19T09:30:00Z</published>
+    <category term="release"/>
+    <summary type="html">&lt;p&gt;Atom の要約です。&lt;/p&gt;</summary>
+  </entry>
+</feed>

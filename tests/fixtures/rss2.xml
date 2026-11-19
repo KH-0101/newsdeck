@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>テストフィード</title>
+    <link>https://example.com/</link>
+    <description>テスト</description>
+    <item>
+      <title>普通の記事 &amp; 記号</title>
+      <link>https://example.com/news/1?utm_source=rss#top</link>
+      <guid isPermaLink="false">news-1</guid>
+      <pubDate>Thu, 19 Nov 2026 21:00:00 GMT</pubDate>
+      <category>政治</category>
+      <description><![CDATA[<p>本文の<b>はじめ</b>の部分です。</p>]]></description>
+    </item>
+    <item>
+      <title>【PR】新製品のご案内</title>
+      <link>https://example.com/news/2</link>
+      <pubDate>Thu, 19 Nov 2026 20:00:00 GMT</pubDate>
+      <category>PR</category>
+    </item>
+    <item>
+      <title></title>
+      <link>https://example.com/news/3</link>
+      <pubDate>not a date</pubDate>
+    </item>
+    <item>
+      <title>危ないリンク</title>
+      <link>javascript:alert(1)</link>
+    </item>
+  </channel>
+</rss>

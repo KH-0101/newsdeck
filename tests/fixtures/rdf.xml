@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel rdf:about="https://news.example.jp/">
+    <title>RDF テスト</title>
+    <link>https://news.example.jp/</link>
+    <description>RSS 1.0</description>
+  </channel>
+  <item rdf:about="https://news.example.jp/a/100">
+    <title>RDF の記事</title>
+    <link>https://news.example.jp/a/100</link>
+    <description>RDF の説明文です。</description>
+    <dc:subject>社会</dc:subject>
+    <dc:date>2026-11-20T05:40:00+09:00</dc:date>
+  </item>
+</rdf:RDF>

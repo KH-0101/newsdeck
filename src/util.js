@@ -71,7 +71,9 @@ export function makeExcerpt(html, max = 120) {
   const text = decodeEntities(
     String(html)
       .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
-      .replace(/<[^>]*>/g, ' '),
+      // 段落や改行のタグは空白に、<b> などのインラインのタグは消す
+      .replace(/<\/?(br|p|div|li|ul|ol|h[1-6]|tr|td|th|blockquote|section|article)\b[^>]*>/gi, ' ')
+      .replace(/<[^>]*>/g, ''),
   )
     .replace(/\s+/g, ' ')
     .trim();

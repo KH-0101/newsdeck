@@ -1,0 +1,14 @@
+{
+  "name": "newsdeck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RSS を毎朝集めて日付ごとの1ページにまとめる、個人用のニュース集約ツール",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node src/build.js",
+    "test": "node --test"
+  }
+}

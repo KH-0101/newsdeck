@@ -7,7 +7,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { validateConfig, ConfigError } from './config.js';
 import { fetchAll } from './fetch.js';
 import { filterItems } from './filter.js';
-import { buildSeen, selectNew } from './dedupe.js';
+import { buildSeen, buildSeenLinks, selectNew, dropCrossFeedDuplicates } from './dedupe.js';
 import { mergeDay, readDay, readRecent, writeDay, pruneOld } from './store.js';
 import { renderDayPage, renderArchive, CSS, ROBOTS_TXT } from './render.js';
 import { jstDate, toJstIso } from './util.js';
@@ -15,9 +15,9 @@ import { jstDate, toJstIso } from './util.js';
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 
 /** 取得結果を、除外と新着判定を済ませた保存用の形にする（純粋関数）。 */
-export function processResults(results, config, seen) {
+export function processResults(results, config, seen, seenLinks = new Set()) {
   const feedById = new Map(config.feeds.map((f) => [f.id, f]));
-  return results.map((r) => {
+  const sources = results.map((r) => {
     const feed = feedById.get(r.feedId);
     const { items, excluded } = filterItems(r.items, [...config.excludeKeywords, ...(feed?.excludeKeywords ?? [])]);
     return {
@@ -28,6 +28,7 @@ export function processResults(results, config, seen) {
       excluded: selectNew(r.feedId, excluded, seen),
     };
   });
+  return dropCrossFeedDuplicates(sources, seenLinks);
 }
 
 /** public/ を作り直す。 */
@@ -70,8 +71,8 @@ export async function run({ root = ROOT, now = new Date(), fetchImpl, log = cons
   const runAt = toJstIso(now);
 
   const results = await fetchAll(config.feeds, { fetchedAt: runAt, ...(fetchImpl ? { fetchImpl } : {}) });
-  const seen = buildSeen(await readRecent(dataDir, date));
-  const sources = processResults(results, config, seen);
+  const recent = await readRecent(dataDir, date);
+  const sources = processResults(results, config, buildSeen(recent), buildSeenLinks(recent));
 
   await writeDay(dataDir, mergeDay(await readDay(dataDir, date), date, runAt, sources));
   const removed = await pruneOld(dataDir, date);

@@ -37,3 +37,17 @@ test('guid が無い記事は正規化したリンクで判定する', () => {
   const seen = buildSeen([{ sources: [{ feedId: 'f', items: [a] }] }]);
   assert.equal(selectNew('f', [b], seen).length, 0);
 });
+
+test('情報源をまたいだ同じリンクは、最初の情報源にだけ残す（D-27）', async () => {
+  const { dropCrossFeedDuplicates, buildSeenLinks } = await import('../src/dedupe.js');
+  const sources = [
+    { feedId: 'main', items: [it('a'), it('b')] },
+    { feedId: 'society', items: [it('a'), it('c')] },
+    { feedId: 'world', items: [it('b'), it('d'), it('old')] },
+  ];
+  const seenLinks = buildSeenLinks([{ sources: [{ feedId: 'main', items: [it('old')] }] }]);
+  const out = dropCrossFeedDuplicates(sources, seenLinks);
+  assert.deepEqual(out.map((s) => s.items.map((i) => i.id)), [['a', 'b'], ['c'], ['d']]);
+  assert.equal(sources[1].items.length, 2, '元のデータは変更しない');
+  assert.equal(seenLinks.size, 1);
+});

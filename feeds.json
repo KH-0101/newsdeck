@@ -2,12 +2,9 @@
   "excludeKeywords": ["PR", "[PR]", "【PR】", "【広告】", "[広告]", "提供：", "提供:", "【スポンサー】", "スポンサード", "タイアップ", "Sponsored", "AD"],
   "feeds": [
     { "id": "nhk-main", "name": "NHKニュース 主要", "url": "https://www.nhk.or.jp/rss/news/cat0.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
-    { "id": "nhk-society", "name": "NHKニュース 社会", "url": "https://www.nhk.or.jp/rss/news/cat1.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
-    { "id": "nhk-business", "name": "NHKニュース 経済", "url": "https://www.nhk.or.jp/rss/news/cat5.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
-    { "id": "asahi-headlines", "name": "朝日新聞 速報", "url": "https://www.asahi.com/rss/asahi/newsheadlines.rdf", "category": "一般", "lang": "ja", "trial": true, "addedAt": "2026-11-19", "excludeKeywords": [] },
-    { "id": "jiji-ranking", "name": "時事ドットコム（アクセスランキング）", "url": "https://www.jiji.com/rss/ranking.rdf", "category": "一般", "lang": "ja", "trial": true, "addedAt": "2026-11-19", "excludeKeywords": [] },
-    { "id": "nhk-world", "name": "NHKニュース 国際", "url": "https://www.nhk.or.jp/rss/news/cat6.xml", "category": "国際", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
-    { "id": "bbc-world", "name": "BBC News World", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "category": "国際", "lang": "en", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
+    { "id": "nhk-society", "name": "NHKニュース 社会", "url": "https://www.nhk.or.jp/rss/news/cat1.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "maxItems": 5, "excludeKeywords": [] },
+    { "id": "nhk-business", "name": "NHKニュース 経済", "url": "https://www.nhk.or.jp/rss/news/cat5.xml", "category": "一般", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "maxItems": 5, "excludeKeywords": [] },
+    { "id": "nhk-world", "name": "NHKニュース 国際", "url": "https://www.nhk.or.jp/rss/news/cat6.xml", "category": "国際", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "maxItems": 5, "excludeKeywords": [] },
     { "id": "publickey", "name": "Publickey", "url": "https://www.publickey1.jp/atom.xml", "category": "技術", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
     { "id": "github-blog", "name": "GitHub Blog", "url": "https://github.blog/feed/", "category": "技術", "lang": "en", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] },
     { "id": "ipa-alert", "name": "IPA 重要なセキュリティ情報", "url": "https://www.ipa.go.jp/security/alert-rss.rdf", "category": "セキュリティ", "lang": "ja", "trial": false, "addedAt": "2026-11-19", "excludeKeywords": [] }

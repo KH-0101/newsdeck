@@ -93,8 +93,9 @@ function renderSource({ feed, source, days, date }) {
     parts.push(`<p class="status status-empty">新着なし</p>`);
   }
   if (items.length > 0) {
-    const head = items.slice(0, FOLD_AFTER);
-    const rest = items.slice(FOLD_AFTER);
+    const limit = feed?.maxItems ?? FOLD_AFTER;
+    const head = items.slice(0, limit);
+    const rest = items.slice(limit);
     parts.push(`<ol class="items">${head.map((i) => renderItem(i, date)).join('')}</ol>`);
     if (rest.length > 0) {
       parts.push(

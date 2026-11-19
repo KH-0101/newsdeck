@@ -56,6 +56,9 @@ export function validateConfig(config) {
     if (feed.addedAt !== undefined && !(typeof feed.addedAt === 'string' && DATE_PATTERN.test(feed.addedAt))) {
       problems.push(`${label}: addedAt は YYYY-MM-DD にしてください`);
     }
+    if (feed.maxItems !== undefined && !(Number.isInteger(feed.maxItems) && feed.maxItems >= 1)) {
+      problems.push(`${label}: maxItems は1以上の整数にしてください`);
+    }
     if (feed.excludeKeywords !== undefined && !isStringArray(feed.excludeKeywords)) {
       problems.push(`${label}: excludeKeywords は空でない文字列の配列にしてください`);
     }

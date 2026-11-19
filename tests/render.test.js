@@ -126,3 +126,13 @@ test('データが1日分だけでも日付ページは壊れない', () => {
   assert.match(html, /データがありません/);
   assert.match(html, /更新 —/);
 });
+
+test('maxItems があれば、その件数を超えた分を折りたたむ', () => {
+  const few = Array.from({ length: 8 }, (_, i) => item(i, `2026-11-20T05:${String(59 - i).padStart(2, '0')}:00+09:00`));
+  const html = renderDayPage({
+    day: { date: '2026-11-20', runs: [], sources: [{ feedId: 'nhk', status: 'ok', error: null, items: few, excluded: [] }] },
+    feeds: [{ ...feeds[0], maxItems: 5 }],
+  });
+  assert.match(html, /<summary>ほか 3件<\/summary>/);
+  assert.match(html, /<span class="count">8<\/span>/, '件数は全体の数');
+});

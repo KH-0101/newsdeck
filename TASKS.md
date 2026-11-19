@@ -9,7 +9,7 @@
   - 完了条件: 採用する情報源のリストが決まり、SPEC の決定ログに D-番号で記録されている。
 - [x] **T0-2 リポジトリの雛形** … `git init`、`.gitignore`（`node_modules/`、`public/`、`.env`、`.env.*`、ただし `!.env.example`）、`package.json`（`"type": "module"`、`npm test`）、`README.md`（概要と使い方）。
   - 完了条件: `git status` に `.env` と `public/` が出ない。最初のコミットの前に `.gitignore` が入っている。
-- [ ] **T0-3【ユーザー】GitHub に公開リポジトリを作り、push する** … Settings > Code security で **Secret scanning** と **Push protection** を有効にする。Settings > Pages の Source を **GitHub Actions** にする。
+- [x] **T0-3【ユーザー】GitHub に公開リポジトリを作り、push する** … Settings > Code security で **Secret scanning** と **Push protection** を有効にする。Settings > Pages の Source を **GitHub Actions** にする。
   - 完了条件: 3つの設定が有効になっていることを、ユーザーが画面で確認している。
 - [x] **T0-4 feeds.json を作る** … T0-1 で選んだ情報源と、全体共通の除外キーワードを入れる。
   - 完了条件: SPEC 5.1 の形式どおりになっている（検証は T1-1 で行う）。
@@ -46,7 +46,7 @@
 ## P4 GitHub Actions
 - [x] **T4-1 daily.yml** … cron `0 21 * * *` と `workflow_dispatch`、`concurrency`、最小の権限（SPEC 7）、`npm ci` → `npm test` → ビルド → data/ に変更があればコミットして push → Pages に配置。Secrets は使わない。
   - 完了条件: ワークフローに `pull_request_target` と Secrets の出力が無い。使っている Action が `actions/*` だけである。
-- [ ] **T4-2【ユーザー】手動実行で確認する** … Actions の画面から手動で実行する。
+- [x] **T4-2【ユーザー】手動実行で確認する** … Actions の画面から手動で実行する。
   - 完了条件: 実行が成功し、Pages の URL をスマホとPCで開ける。data/ のコミットが `github-actions[bot]` で入っている。
 - [ ] **T4-3 失敗時の確認** … feeds.json に存在しない URL を1件入れて実行する（確認後に戻す）。
   - 完了条件: そのフィードだけが「取得失敗」と表示され、他は表示される。

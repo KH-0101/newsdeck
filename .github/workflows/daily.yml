@@ -1,0 +1,90 @@
+# 毎朝 6:00 JST にフィードを集め、data/ をコミットして GitHub Pages に配置する（SPEC 7）。
+# Secrets は使わない。使う Action は GitHub 公式（actions/*）だけ。
+name: 毎朝の更新
+
+on:
+  schedule:
+    - cron: '0 21 * * *' # UTC 21:00 = JST 6:00
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # data/ のコミット用
+    outputs:
+      has_site: ${{ steps.site.outputs.has_site }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm test
+
+      # すべてのフィードが失敗しても、データとページは残してからワークフローを失敗にする（SPEC 8）
+      - name: ビルド
+        id: build
+        run: |
+          set +e
+          npm run build
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: data/ に変更があればコミットする
+        run: |
+          git add data/
+          if git diff --cached --quiet; then
+            echo "data/ に変更なし"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "データ更新: $(TZ=Asia/Tokyo date +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - name: ページができたか確かめる
+        id: site
+        run: |
+          if [ -f public/index.html ]; then
+            echo "has_site=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_site=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.site.outputs.has_site == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+      - name: ビルドの失敗を知らせる
+        if: steps.build.outputs.exit_code != '0'
+        run: |
+          echo "::error::ビルドが終了コード ${{ steps.build.outputs.exit_code }} で終わりました（設定の誤り、またはすべてのフィードの取得失敗）"
+          exit 1
+
+  deploy:
+    needs: build
+    if: ${{ !cancelled() && needs.build.outputs.has_site == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -44,7 +44,7 @@
   - 完了条件: `node src/build.js` で data/ と public/ ができる。2回続けて実行しても、2回目の新着は0件（または追加分だけ）になる。
 
 ## P4 GitHub Actions
-- [ ] **T4-1 daily.yml** … cron `0 21 * * *` と `workflow_dispatch`、`concurrency`、最小の権限（SPEC 7）、`npm ci` → `npm test` → ビルド → data/ に変更があればコミットして push → Pages に配置。Secrets は使わない。
+- [x] **T4-1 daily.yml** … cron `0 21 * * *` と `workflow_dispatch`、`concurrency`、最小の権限（SPEC 7）、`npm ci` → `npm test` → ビルド → data/ に変更があればコミットして push → Pages に配置。Secrets は使わない。
   - 完了条件: ワークフローに `pull_request_target` と Secrets の出力が無い。使っている Action が `actions/*` だけである。
 - [ ] **T4-2【ユーザー】手動実行で確認する** … Actions の画面から手動で実行する。
   - 完了条件: 実行が成功し、Pages の URL をスマホとPCで開ける。data/ のコミットが `github-actions[bot]` で入っている。

@@ -8,7 +8,8 @@ const feed = (over = {}) => ({ id: 'a', name: 'A', url: 'https://example.com/rss
 test('リポジトリの feeds.json は正しい', () => {
   const config = JSON.parse(readFileSync(new URL('../feeds.json', import.meta.url), 'utf8'));
   const out = validateConfig(config);
-  assert.equal(out.feeds.length, 4);
+  // 件数は決め打ちしない（情報源を足し引きしてもテストが落ちないように）
+  assert.ok(out.feeds.length >= 1);
 });
 
 test('既定値を補う', () => {

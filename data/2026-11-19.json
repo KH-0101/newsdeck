@@ -3491,13 +3491,6 @@
         }
       ],
       "excluded": []
-    },
-    {
-      "feedId": "test-missing",
-      "status": "error",
-      "error": "http 404",
-      "items": [],
-      "excluded": []
     }
   ]
 }

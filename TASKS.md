@@ -17,7 +17,7 @@
 ## P1 取得
 - [ ] **T1-1 feeds.json の読み込みと検証**（`src/build.js` の一部、または `src/config.js`）… `id` の重複、http/https でない URL、必須項目の欠けを検出する。
   - 完了条件: 正しいもの、誤ったもののそれぞれのテストが通る。誤りのときはメッセージで何が悪いか分かる。
-- [ ] **T1-2 util.js** … HTML エスケープ、URL の検証（http/https のみ）、リンクの正規化（`#` と `utm_*` の除去）、抜粋づくり（タグ除去、空白の圧縮、120字）、JST の日付・時刻の整形。
+- [x] **T1-2 util.js** … HTML エスケープ、URL の検証（http/https のみ）、リンクの正規化（`#` と `utm_*` の除去）、抜粋づくり（タグ除去、空白の圧縮、120字）、JST の日付・時刻の整形。
   - 完了条件: 各関数のテストが通る。`<script>`、`javascript:` の URL、絵文字を含む120字の切り詰め、UTC の 21:00 → JST の翌日、をテストに含める。
 - [ ] **T1-3 fetch.js** … `rss-parser` で取得し、`{ feedId, status, error, items }` に整える。タイムアウトは10秒、User-Agent は SPEC 8。1件の失敗で止めない。
   - 完了条件: fixtures の RSS 2.0 と Atom を正しく整えるテストが通る。解釈できない XML のときに `status: error` になる。

@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-22",
+  "runs": [
+    "2026-11-22T10:00:35+09:00"
+  ],
+  "sources": [
+    {
+      "feedId": "nhk-main",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79767",
+          "title": "日本海側中心に雨や雪 新潟では土砂災害に厳重警戒を",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79767",
+          "excerpt": "北日本と東日本の日本海側を中心に雨や雪が降り、新潟県では「レベル4土砂災害危険警報」が発表されている地域があり、厳重な警戒が必要です。 山沿いではこれまでの雪で積雪が多くなっている地域があるほか、2…",
+          "publishedAt": "2026-11-22T06:57:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
+          "title": "福島 北塩原村で国道通行止め 住民や宿泊客の孤立状態続く",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79781",
+          "excerpt": "福島県北塩原村ではおとといから雪による倒木が相次いだ影響で国道の一部が通行止めになり、500世帯余りのほか、ホテルの宿泊客の孤立状態が続いています。県は22日朝から除雪作業を再開する予定ですが、通行止…",
+          "publishedAt": "2026-11-22T05:02:31+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79776",
+          "title": "金塊4億円相当や現金約2500万円など盗まれる 兵庫 西宮の住宅",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79776",
+          "excerpt": "21日未明、兵庫県西宮市の会社経営者の住宅に何者かが侵入し、金塊およそ20キロや現金およそ2500万円などが盗まれる被害が確認されました。金塊20キロは現在の金の価格で4億円相当にのぼり、警察が窃盗事…",
+          "publishedAt": "2026-11-22T00:03:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79796",
+          "title": "デンマーク ロシア主導の暗殺計画阻止と発表 首相「制裁強化」",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79796",
+          "excerpt": "北欧デンマークの首相府は、国内での暗殺計画を警察などが阻止したと発表しました。ロシアの情報機関が計画を主導したとみられるとして、フレデリクセン首相はロシアへの制裁を強化するとしています。",
+          "publishedAt": "2026-11-22T08:38:38+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79819",
+          "title": "ゼレンスキー大統領「3か国首脳会談はロシアにとっては失敗」",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79819",
+          "excerpt": "ウクライナのゼレンスキー大統領はアメリカ、中国、ロシアによる3か国の首脳会談について「ロシアにとっては失敗に終わった」と述べ、プーチン大統領の期待どおりには進まなかったという認識を示しました。",
+          "publishedAt": "2026-11-22T08:07:20+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79820",
+          "title": "ホテル更衣室で保育園児など盗撮疑い 福島県警の行政職員逮捕",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79820",
+          "excerpt": "千葉県内のホテルの浴場の更衣室で、訪れていた保育園児などを盗撮したとして、福島県警の40歳の行政職員が逮捕されました。容疑を否認しているということです。",
+          "publishedAt": "2026-11-22T07:29:44+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79790",
+          "title": "香川 JR予讃線信号トラブル 特急など約6時間立往生も運転再開",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79790",
+          "excerpt": "JR予讃線は、香川県内の信号設備の不具合と点検のため、一部の区間で21日夜から22日朝にかけて運転見合わせが続き、特急列車が乗客およそ90人を乗せたままおよそ6時間にわたって立往生しました。",
+          "publishedAt": "2026-11-22T06:14:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-society",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79711",
+          "title": "【動画】Pickup NEWS（11月22日）",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79711",
+          "excerpt": "これまでに入っているニュースを、まとめて1分の動画でお伝えします。 （データ放送では動画をご覧いただけません）",
+          "publishedAt": "2026-11-22T06:35:53+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79765",
+          "title": "暗号資産利用者の申告漏れ多く 国税当局が調査体制強化へ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79765",
+          "excerpt": "暗号資産の利用者が年々増えるなか、東京国税局が昨年度、利用者90人あまりに税務調査を行い、あわせて39億円余りの申告漏れを指摘したことが関係者への取材でわかりました。税務申告をしない利用者が多いことか…",
+          "publishedAt": "2026-11-22T05:51:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79777",
+          "title": "前橋 市街地に出没のクマ見つからず 朝から捜索再開へ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79777",
+          "excerpt": "住宅街にクマが出没し警戒が続いている前橋市では21日朝、再び目撃され、市や警察などは一時周辺への立ち入りを規制して捜索しましたが夜までに見つからず、22日朝から捜索を再開することにしています。",
+          "publishedAt": "2026-11-22T07:05:21+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
+          "title": "沖縄 火災で焼失の首里城正殿 きょう国主催の「復元完成式」",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79741",
+          "excerpt": "那覇市にある首里城正殿は7年前（2019年）の火災で焼失したあと復元され、22日、完成を祝う国主催の式典が行われます。",
+          "publishedAt": "2026-11-22T04:50:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79780",
+          "title": "山形新幹線 早朝の一部列車を除き通常運転の見通し",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79780",
+          "excerpt": "山形新幹線は大雪の影響で21日、山形県内で終日、運転を取りやめましたが、JR東日本によりますと、22日は早朝の一部の列車を除き、通常通りの運転になる見通しだということです。",
+          "publishedAt": "2026-11-22T04:27:02+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79734",
+          "title": "将棋の福間香奈女流四冠 第2子の妊娠を公表",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79734",
+          "excerpt": "将棋の福間香奈女流四冠が21日、岡山県で行われた対局のあとの記者会見で、第2子の妊娠を公表しました。",
+          "publishedAt": "2026-11-21T20:13:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79709",
+          "title": "愛子さま シンガポール訪問終え帰国",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79709",
+          "excerpt": "天皇皇后両陛下の長女の愛子さまは、シンガポールへの公式訪問を終えて21日帰国し、「日本とシンガポールの国民が世代を超えて交流を重ね、友好と信頼の絆が一層深まっていくことを心から願っております」との感想…",
+          "publishedAt": "2026-11-21T18:50:26+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79712",
+          "title": "除雪車にはねられ 国道横断中の女性死亡 福井 勝山",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79712",
+          "excerpt": "21日午前、福井県勝山市の国道で道路を横断していた71歳の女性が後ろに進んでいた大型の除雪車にはねられて死亡しました。",
+          "publishedAt": "2026-11-21T21:38:33+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79616",
+          "title": "メルカリ AIに入力した個人情報漏えいか「リスト型攻撃」も",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79616",
+          "excerpt": "フリマアプリ大手のメルカリは、業務で利用しているAIツールを提供する会社の委託先が不正アクセスを受けた影響で、従業員が入力した顧客や取引先などの個人情報が流出した可能性があることを明らかにしました。 …",
+          "publishedAt": "2026-11-21T14:33:40+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79555",
+          "title": "前橋 市街地出没のクマ見つからず 22日朝から捜索再開",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79555",
+          "excerpt": "住宅街にクマが出没し警戒が続いている前橋市では、21日朝クマが目撃され、市や警察などは夕方、一時、周辺への立ち入りを規制して捜索しましたが見つからなかったため、午後7時前に捜索を打ち切り、22日朝から…",
+          "publishedAt": "2026-11-21T20:56:09+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79560",
+          "title": "リニア工事現場付近の川で水吹き上がる JR東海が関連調査 川崎",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79560",
+          "excerpt": "20日午後、川崎市を流れる川で、水が吹き上がっているのが確認されました。 周辺の地下では、リニア中央新幹線のトンネル工事が行われていて、JR東海は掘削作業を中断し、工事との関連を調べています。",
+          "publishedAt": "2026-11-21T11:13:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79551",
+          "title": "愛子さま マーライオン公園を視察 帰国へ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79551",
+          "excerpt": "天皇皇后両陛下の長女の愛子さまは、訪問先のシンガポールで、国のシンボルとなっているマーライオン公園を訪ねられました。 愛子さまは5日間の日程を終え、21日に帰国されます。",
+          "publishedAt": "2026-11-21T11:00:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-business",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
+          "title": "ナスダック株価指数急落 今週4兆ドル時価総額が消失",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79604",
+          "excerpt": "ニューヨーク株式市場では20日、AI関連の政策をめぐる先行きの不透明感などを背景に売り注文が広がり、ハイテク株の比率が高いナスダックの株価指数は5％を超える急落となりました。 アメリカのメディアは、…",
+          "publishedAt": "2026-11-21T13:33:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79559",
+          "title": "東電 資本提携後も重要事項の意思決定に国が拒否権保持 提示",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79559",
+          "excerpt": "経営の立て直しに向けて他社との資本提携の検討を進めている東京電力ホールディングスは、交渉相手に対し、電力の安定供給など経営上重要な事項の意思決定に関しては、提携後も国が事実上の拒否権を持ち続けることな…",
+          "publishedAt": "2026-11-21T17:28:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-world",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261028de67166",
+          "title": "【随時更新】ロシア ウクライナに軍事侵攻（11月22日の動き）",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261028de67166",
+          "excerpt": "ロシアによるウクライナに対する軍事侵攻が続いています。 ウクライナの各地でロシア軍とウクライナ軍が戦闘を続けています。戦闘の状況や関係各国の外交など、ウクライナ情勢をめぐる22日（日本時間）の動きを…",
+          "publishedAt": "2026-11-22T09:51:35+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79786",
+          "title": "COP31 会期延長し協議続く 化石燃料からの脱却などめぐり",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79786",
+          "excerpt": "気候変動対策を話し合う国連の会議「COP31」は、成果文書案に化石燃料からの脱却について盛り込まれなかったことなどをめぐり、会期を延長して協議が続いていて、各国が一致した方針を打ち出せるか不透明な状況…",
+          "publishedAt": "2026-11-22T07:06:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79771",
+          "title": "AI自律兵器の国際会議 法的拘束力あるルール作りで合意できず",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79771",
+          "excerpt": "人間が関与せず、AIなどを用いて自律して攻撃する兵器システムをテーマにした国際会議はヨーロッパ各国が法的拘束力のあるルール作りを求めたのに対し、アメリカやロシアが反対したため合意には至りませんでした。",
+          "publishedAt": "2026-11-22T06:02:26+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261028de67165",
+          "title": "【詳細】ロシア ウクライナに軍事侵攻（11月21日の動き）",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261028de67165",
+          "excerpt": "ロシアによるウクライナに対する軍事侵攻が続いています。 ウクライナの各地でロシア軍とウクライナ軍が戦闘を続けています。戦闘の状況や関係各国の外交など、ウクライナ情勢をめぐる21日（日本時間）の動きを…",
+          "publishedAt": "2026-11-21T22:00:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79750",
+          "title": "ウクライナ支援の有志連合 初の軍事演習をメディアに公開",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79750",
+          "excerpt": "ウクライナを支援する有志連合による初めての大規模な軍事演習が20日、メディアに公開され、各国の部隊はウクライナの安全の保証に向けて現地で活動するため、連携を確認していました。",
+          "publishedAt": "2026-11-21T21:30:45+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
+          "title": "ゼレンスキー大統領「私たちにとってプーチンは殺人者」",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79605",
+          "excerpt": "アメリカのトランプ大統領が、中国で行われたロシアのプーチン大統領との会談の際に、プーチン大統領を「友人」と呼んだことについて、ウクライナのゼレンスキー大統領は、「私たちにとって、プーチンは殺人者だ」と…",
+          "publishedAt": "2026-11-21T13:22:00+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261121de79545",
+          "title": "仏大統領選元首相立候補表明 極右ルペン氏支持トップ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261121de79545",
+          "excerpt": "マクロン大統領の後任を選ぶフランス大統領選挙までおよそ5か月となるなか、ドビルパン元首相が立候補を表明しました。 最新の世論調査では極右政党のルペン氏が2位以下を大きく引き離してトップに立っていて、…",
+          "publishedAt": "2026-11-21T11:18:47+09:00",
+          "fetchedAt": "2026-11-22T10:00:35+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    }
+  ]
+}

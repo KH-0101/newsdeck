@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-23",
+  "runs": [
+    "2026-11-23T10:26:45+09:00"
+  ],
+  "sources": [
+    {
+      "feedId": "nhk-main",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
+          "title": "横溝正史が戦時下に陸軍「幻の雑誌」に掲載した推理小説発見",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80134",
+          "excerpt": "名探偵・金田一耕助シリーズで知られる推理小説作家の横溝正史が、戦時下、陸軍が発行した雑誌に掲載した短編の推理小説が見つかりました。 専門家は「時局にそぐわないとして推理小説の発表の場が失われつつあった…",
+          "publishedAt": "2026-11-23T09:16:28+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80133",
+          "title": "“会談模索もキム総書記の条件を米が受け入れられず”米報道",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80133",
+          "excerpt": "アメリカの有力紙ウォール・ストリート・ジャーナルは、トランプ大統領の先週のアジア訪問にあわせて、アメリカと北朝鮮の双方が首脳会談の可能性を模索したものの、キム・ジョンウン（金正恩）総書記が提示した条件…",
+          "publishedAt": "2026-11-23T09:26:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80132",
+          "title": "松山市中心部近くの住宅で火事 2人と連絡取れず",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80132",
+          "excerpt": "23日午前3時すぎ、松山市の中心部に近い住宅街で火事があり、住宅1棟が全焼しました。 警察によりますと、火事のあとこの家に2人で住んでいるいずれも50代の姉と弟と連絡が取れなくなっているということで、…",
+          "publishedAt": "2026-11-23T08:27:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
+          "title": "沖縄 首里城正殿が復元 きょう正午から一般公開",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de80078",
+          "excerpt": "那覇市にある首里城正殿は、7年前の火災で焼失したあと復元され、23日午前、沖縄県が主催して完成を祝う式典が行われたあと、正午から一般公開が始まります。 正殿の公開を迎え、火災から復元に至る歩みが大きな…",
+          "publishedAt": "2026-11-23T06:42:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80128",
+          "title": "【動画】上空から見た首里城正殿は？",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80128",
+          "excerpt": "火災から7年、琉球王国の歴史をいまにつなぐ沖縄のシンボルが再び姿を現しました。 那覇市の市街地と海を見下ろす丘の上、中央に見えてきた「首里城正殿」の正面には金ぱくが施された豪華な木彫りの装飾。 壁…",
+          "publishedAt": "2026-11-23T08:08:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80109",
+          "title": "野党 関文科相辞任求める声強まる 木原官房長官“説明が重要”",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80109",
+          "excerpt": "政治資金パーティーをめぐる指摘が相次いでいる関文部科学大臣について、野党側では国会で事実と異なる説明をしたのは虚偽答弁にあたるなどとして辞任を求める声が強まっています。 一方、木原官房長官は関大臣自身…",
+          "publishedAt": "2026-11-23T06:18:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80139",
+          "title": "ドイツ最大労組 メルセデスの工場でも24時間ストライキ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80139",
+          "excerpt": "大手自動車メーカーの従業員が加入するドイツ最大の労働組合は、賃上げなどをめぐって22日から新たにメルセデス・ベンツグループの工場で24時間のストライキに踏み切ることになり、地元メディアは、影響は広い範…",
+          "publishedAt": "2026-11-23T09:48:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-society",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de80066",
+          "title": "【動画】Pickup NEWS（11月23日）",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de80066",
+          "excerpt": "これまでに入っているニュースを、まとめて1分の動画でお伝えします。 （データ放送では動画をご覧いただけません）",
+          "publishedAt": "2026-11-23T06:31:24+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
+          "title": "住宅街にクマ出没の前橋 地下水路に潜んでいる可能性 警戒続く",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de80089",
+          "excerpt": "住宅街にクマが出没した前橋市では、22日、クマが潜んでいる可能性がある地下水路の出入り口が土のうなどで封鎖されました。 市や警察は23日も警戒を続けるとともに、クマの居場所の特定を進めることにしていま…",
+          "publishedAt": "2026-11-23T06:01:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+          "title": "COP31成果文書採択断念 化石燃料からの脱却言及なしに反発の声",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79933",
+          "excerpt": "トルコで開かれた気候変動対策を話し合う国連の会議「COP31」は、会期を延長して行われましたが、会議全体を総括する成果文書を採択できずに閉幕しました。 文書案に化石燃料からの脱却などについて言及がなか…",
+          "publishedAt": "2026-11-23T04:45:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de80050",
+          "title": "福島 国道459号の通行止め解除 北塩原村の孤立状態ほぼ解消",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de80050",
+          "excerpt": "雪による倒木の影響で通行止めとなっていた福島県の国道459号の一部は、22日午後6時に解除されました。これにより、北塩原村の500世帯余りの孤立状態は解消されました。",
+          "publishedAt": "2026-11-22T18:57:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de80018",
+          "title": "木原官房長官 普天間負担軽減の推進会議 年内にも開催の方針",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de80018",
+          "excerpt": "木原官房長官は、訪問先の沖縄県宜野湾市で記者団に対し、アメリカ軍普天間基地の負担軽減策を政府と地元が話し合う会議を年内にも開催する方針を明らかにしました。",
+          "publishedAt": "2026-11-22T18:36:58+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79985",
+          "title": "千葉 印旛沼の堤防決壊 コメ作りに影響 鋭いトゲのオニビシも",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79985",
+          "excerpt": "ことし9月、台風による記録的な大雨で千葉県の印旛沼の堤防が決壊してから、22日で2か月になります。印旛沼周辺では被災した田んぼの復旧が進まず、来年のコメ作りに向けた準備を始められないなど、今も影響が続…",
+          "publishedAt": "2026-11-22T18:11:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79957",
+          "title": "高知空港に緊急着陸した米軍戦闘機が離陸",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79957",
+          "excerpt": "今月20日、高知空港に緊急着陸し、空港内にとどまっていたアメリカ軍の戦闘機が、22日午前、離陸しました。これまでのところ、民間航空便への影響は出ていないということです。",
+          "publishedAt": "2026-11-22T16:18:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79954",
+          "title": "「いい夫婦の日」に夫婦岩で愛を叫ぶ催し 三重 伊勢",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79954",
+          "excerpt": "11月22日は語呂合わせで「いい夫婦の日」です。三重県伊勢市の観光名所「夫婦岩」では、家族やパートナーへの思いを叫ぶイベントが開かれました。",
+          "publishedAt": "2026-11-22T16:15:12+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
+          "title": "「東アジア反日武装戦線」メンバーの死刑囚が東京拘置所で死亡",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79958",
+          "excerpt": "1974年から翌年にかけて起きた連続企業爆破事件で死刑が確定していた、過激派組織「東アジア反日武装戦線」のメンバー、益永利明、旧姓・片岡利明死刑囚が、22日朝、東京拘置所で死亡しました。法務省によりま…",
+          "publishedAt": "2026-11-22T20:37:59+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79904",
+          "title": "六花亭に不正アクセス クレカ情報不正利用とみられる被害確認",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79904",
+          "excerpt": "北海道帯広市に本社がある菓子メーカー「六花亭」のオンラインショップが不正アクセスを受け、およそ8000件のクレジットカード情報が流出した可能性がある問題で、会社は、カード情報の不正利用とみられる被害が…",
+          "publishedAt": "2026-11-22T14:02:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
+          "title": "沖縄 首里城正殿が復元“二度と失われないよう つないでいく”",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79841",
+          "excerpt": "7年前の火災で焼失した首里城正殿が復元されました。22日の国主催の式典では、復元に携わった琉球大学の名誉教授が「二度と失われないよう、未来に切れ目なくつないでいく」と決意を述べました。",
+          "publishedAt": "2026-11-22T18:06:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-business",
+      "status": "ok",
+      "error": null,
+      "items": [],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-world",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261118de77741",
+          "title": "【動画】台湾 伝統の“柿餅”づくりが最盛期",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261118de77741",
+          "excerpt": "干し柿のことを“柿の餅”と書いて「シービン」と呼ぶ台湾 北部の新竹では今、干し柿づくりが最盛期です 秋の風物詩を求め、観光客も多く訪れています",
+          "publishedAt": "2026-11-23T06:48:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80121",
+          "title": "インドネシアの製菓工場で火災 3人死亡 36人行方不明",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80121",
+          "excerpt": "インドネシアの首都ジャカルタの近郊にある菓子の製造工場で21日、火災が発生し、地元当局によりますと3人が死亡し、36人が行方不明になっています。",
+          "publishedAt": "2026-11-23T05:40:07+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80114",
+          "title": "ウクライナ キーウ近郊に攻撃 4人死亡 ロシアの攻撃激化",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80114",
+          "excerpt": "ロシアによる軍事侵攻が続くウクライナで22日、首都キーウ近郊の集合住宅などが無人機攻撃を受けあわせて4人が死亡しました。ロシア軍の攻撃はこの数日で激しさを増していて、さらなる攻撃に警戒が強まっています…",
+          "publishedAt": "2026-11-23T05:19:29+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+          "title": "韓国 大学入試 スマートグラスなどの対策で混乱 教育相が辞意",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de80041",
+          "excerpt": "韓国で今月19日に行われた大学進学のための共通試験で、スマートグラスを使用するなどAIを悪用した不正行為への対策を政府が試験直前に強化して混乱が広がったことを受け、教育相が22日、辞意を表明しました。",
+          "publishedAt": "2026-11-22T20:21:50+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79863",
+          "title": "フィンランド沖 ロシアの貨物船に無人機攻撃 ウクライナ関与か",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79863",
+          "excerpt": "フィンランド軍などは、南部の沖合でロシアの貨物船が無人機による攻撃を受け、火災が発生したと発表しました。ロシア軍と関連のある船だとしていて、攻撃はウクライナが関与している可能性が高いとしています。",
+          "publishedAt": "2026-11-22T12:42:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79868",
+          "title": "イラン バーレーンの米軍施設を標的に攻撃と発表 緊張続く",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79868",
+          "excerpt": "断続的な攻撃の応酬が続く中東のホルムズ海峡周辺では、イランがバーレーンにあるアメリカ軍のレーダー施設を攻撃したと発表しました。バーレーンは民間の施設に被害が出たとして攻撃を非難していて、地域で緊張が続…",
+          "publishedAt": "2026-11-22T12:22:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261122de79817",
+          "title": "AIで未解決難問“リーマン予想”証明主張 専門家の受けとめは?",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261122de79817",
+          "excerpt": "アメリカの新興AI企業、アンソロピックに所属する数学者が、数学の難問とされる「リーマン予想」をAIを使って証明したと主張しました。専門家による検証で認められれば歴史的な成果となります。",
+          "publishedAt": "2026-11-22T14:24:00+09:00",
+          "fetchedAt": "2026-11-23T10:26:45+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    }
+  ]
+}

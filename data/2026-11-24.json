@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-24",
+  "runs": [
+    "2026-11-24T14:10:38+09:00"
+  ],
+  "sources": [
+    {
+      "feedId": "nhk-main",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80396",
+          "title": "参議院 野党6党 関文科相に対する問責決議案 提出方針で一致",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80396",
+          "excerpt": "政治資金パーティーをめぐる指摘が相次いでいる関文部科学大臣について、参議院の野党6党は、国会で事実と異なる説明をするなど閣僚にふさわしくないとして問責決議案を参議院に提出する方針で一致しました。",
+          "publishedAt": "2026-11-24T13:07:31+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80304",
+          "title": "エヌビディアCEO フアン氏が復帰へ 企業統治も問われるか",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80304",
+          "excerpt": "アメリカの半導体大手「エヌビディア」のCEOにジェンスン・フアン氏が電撃的に復帰したことについて、トランプ大統領は、23日、「私が取締役会を説得した」などと、関与を明らかにしました。辞任から10日あま…",
+          "publishedAt": "2026-11-24T14:06:49+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80494",
+          "title": "アメリカ商務省 “メガスピード” を輸出規制の対象に指定",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80494",
+          "excerpt": "アメリカ商務省は25日に掲載される予定の官報でシンガポールの企業「メガスピード・インターナショナル」を先端半導体などの輸出規制の対象に指定したと明らかにしました。",
+          "publishedAt": "2026-11-24T12:45:42+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80284",
+          "title": "荒れた天気 強風 土砂災害に十分注意 今夜以降日本海側で雪も",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80284",
+          "excerpt": "前線が通過している影響で、24日は大気の状態が非常に不安定になり、沿岸部を中心に雨風ともに強まり荒れた天気となっています。気象庁は、強風のほか大雨による土砂災害に十分注意し、落雷や竜巻などの激しい突風…",
+          "publishedAt": "2026-11-24T13:21:28+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80343",
+          "title": "長野と岐阜 雪の影響で停電続く 丸4日以上停電している地域も",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80343",
+          "excerpt": "先週末から断続的に降り続いた雪による倒木などの影響で、長野県内の一部では24日も停電が続き、丸4日以上停電している地域もあります。中部電力パワーグリッドによりますと、全域での復旧は24日夜になる見込み…",
+          "publishedAt": "2026-11-24T14:00:24+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80511",
+          "title": "教育の政治的中立性「確認・見直し」の学校は7割超 文科省",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80511",
+          "excerpt": "沖縄県名護市辺野古の沖合で船が転覆し、研修旅行中の高校生など2人が死亡した事故をめぐって、文部科学省は、全国の学校などに行った教育活動の政治的中立性や安全対策に関する調査結果を公表しました。 修学旅…",
+          "publishedAt": "2026-11-24T13:52:37+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80288",
+          "title": "サッカー女子ワールドカップ 2031年と2035年の開催地決定",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80288",
+          "excerpt": "FIFA＝国際サッカー連盟は女子のワールドカップについて、2031年の大会をアメリカ、メキシコ、コスタリカ、ジャマイカで、2035年の大会をイングランド、北アイルランド、スコットランド、ウェールズで開…",
+          "publishedAt": "2026-11-24T05:29:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-society",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80435",
+          "title": "前橋市 住宅街でのクマ警戒続く中 小中学校再開",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80435",
+          "excerpt": "住宅街でのクマの出没が相次いでいる前橋市では、市や警察が警戒を続ける中、24日、休校となっていた小中学校などが再開されました。",
+          "publishedAt": "2026-11-24T11:59:22+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80365",
+          "title": "名古屋市中川の鋼板工場で爆発音 屋根や外壁の一部吹き飛ぶ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80365",
+          "excerpt": "24日午前、名古屋市中川区の鋼板工場で「爆発音がした」と通報があり、警察と消防が詳しい状況を調べています。",
+          "publishedAt": "2026-11-24T11:04:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80216",
+          "title": "【動画】Pickup NEWS（11月24日）",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80216",
+          "excerpt": "これまでに入っているニュースを、まとめて1分の動画でお伝えします。 （データ放送では動画をご覧いただけません）",
+          "publishedAt": "2026-11-24T13:46:50+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80278",
+          "title": "沖縄のシンボル 首里城正殿復元 NW9広内キャスターが現地取材",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80278",
+          "excerpt": "沖縄のシンボルが鮮やかによみがえりました。 7年前の火災で焼失した首里城正殿が復元され、一般公開が始まりました。 シンボルの復活を機に、沖縄は新たな歩みを始めます。 今後の地域経済の行方は。 …",
+          "publishedAt": "2026-11-23T22:02:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80268",
+          "title": "長野 雪の影響で停電続く “24日中の復旧を目指す”",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80268",
+          "excerpt": "先週末から断続的に降り続いた雪による倒木などの影響で、長野市などの一部では今も停電が続いています。 中部電力パワーグリッドでは24日中の復旧を目指しているということです。",
+          "publishedAt": "2026-11-23T18:52:56+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80257",
+          "title": "「核のごみ」文献調査 茨城 常陸大宮で初の市民説明会",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80257",
+          "excerpt": "高レベル放射性廃棄物、いわゆる「核のごみ」の最終処分地の選定をめぐり文献調査が行われている茨城県常陸大宮市で、市民を対象にした初めての説明会が開かれました。",
+          "publishedAt": "2026-11-23T18:49:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80164",
+          "title": "福島 大雪による孤立状態が解消 電力復旧作業や雪かき進む",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80164",
+          "excerpt": "福島県では、雪による倒木の影響で、一時、500世帯余りが孤立状態となりましたが、22日までに解消されました。一方、停電は一部で続き、復旧作業が進められています。",
+          "publishedAt": "2026-11-23T19:11:30+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-business",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80510",
+          "title": "10月の中古マンション価格 東京23区は5か月連続下落",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80510",
+          "excerpt": "10月、東京23区で売り出された中古マンションの平均価格は、70平方メートルに換算して1億2400万円あまりで、前の月と比べてマイナス1.6％と5か月連続の下落となりました。 調査した会社は、価格が…",
+          "publishedAt": "2026-11-24T13:48:07+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80499",
+          "title": "海外に住む親族の扶養控除 来年度税制改正で要件厳格化へ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80499",
+          "excerpt": "政府は、海外に住む親族を扶養する人の所得税の負担を減らす仕組みについて、対象人数を多く見せかけて申告するケースがあるとして、適用の要件を厳しくする案をまとめました。",
+          "publishedAt": "2026-11-24T12:56:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80375",
+          "title": "【きょうのおはBiz 11月24日(火)】AIで急増する“1人会社”",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80375",
+          "excerpt": "NHKニュース「おはよう日本」で平日朝に放送している経済ニュースコーナー「おはBiz」。最新のビジネストレンドや働き方、お役立ちサービスやスタートアップ企業の情報など、ギュギュっとコンパクトにお届けし…",
+          "publishedAt": "2026-11-24T11:39:44+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80352",
+          "title": "株価 一時2800円超の値上がり エヌビディアのCEO復帰発表受け",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80352",
+          "excerpt": "連休明けの24日の東京株式市場、アメリカの半導体大手「エヌビディア」のCEOにジェンスン・フアン氏が復帰すると発表されたことを受けて、AIや半導体関連の銘柄に買い注文が広がり、日経平均株価は一時、28…",
+          "publishedAt": "2026-11-24T11:55:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80289",
+          "title": "有価証券報告書の制度見直しへ 経営者はより責任持って確認を",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80289",
+          "excerpt": "企業の不正会計などが相次ぐ中、金融庁は、有価証券報告書の内容に経営者がより責任を持つよう制度を見直します。 「確認書」という有価証券報告書と同じタイミングで開示する書類に、経営者が了承した旨を形式的…",
+          "publishedAt": "2026-11-24T05:31:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80214",
+          "title": "物価上昇 安全重視の大学やマンションでも資産運用見直す動き",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80214",
+          "excerpt": "物価の上昇が続く中、手元の資産の目減りを防ごうと、個人や企業にとどまらずマンションや大学などでも資産の管理や運用の姿勢に変化が出ています。",
+          "publishedAt": "2026-11-23T19:34:08+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80254",
+          "title": "東京電力 福島での廃炉と賠償の部門を統合へ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80254",
+          "excerpt": "東京電力ホールディングスは福島県内で行う廃炉や賠償などの体制強化に向けて、福島第一原子力発電所と福島第二原子力発電所のそれぞれの廃炉部門、それに賠償や復興を担う部門のあわせて3つを統合し、グループ内に…",
+          "publishedAt": "2026-11-23T18:24:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "feedId": "nhk-world",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80509",
+          "title": "COP31 笹川環境相「次の合意に向けて検証を」",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80509",
+          "excerpt": "トルコで開かれた気候変動対策を話し合う国連の会議「COP31」で、会議全体を総括する成果文書が採択できずに閉幕したことについて、笹川環境大臣は、次の合意に向けて各国で検証が必要だとする見解を示しました…",
+          "publishedAt": "2026-11-24T13:44:23+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80445",
+          "title": "アメリカ民主党 大統領選 候補者選びの討論会 来年6月から",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80445",
+          "excerpt": "アメリカの野党・民主党は2028年に行われる次の大統領選挙に向けた候補者討論会の初回を、2027年6月に開くと発表しました。 早期に予定を公表することで11月に行われた中間選挙で大勝した勢いを維持し…",
+          "publishedAt": "2026-11-24T12:28:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80444",
+          "title": "日系人強制収容 LA近郊で12万人超の名前刻んだ記念碑の着工式",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80444",
+          "excerpt": "アメリカで、第2次世界大戦中に強制収容された、すべての日系人の名前を刻んだ記念碑がロサンゼルス近郊に建てられることになり、現地で着工式が行われました。",
+          "publishedAt": "2026-11-24T12:15:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80412",
+          "title": "木原長官 高市首相の中国到着時に段差“日本側で把握し対応”",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80412",
+          "excerpt": "APEC首脳会議に出席するため、総理大臣が中国の空港に到着した際、政府専用機とタラップとの間に段差があったことについて、木原官房長官は、日本側が現場で把握し、専用機内に情報を伝えて対応したと説明しまし…",
+          "publishedAt": "2026-11-24T11:55:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80353",
+          "title": "タジキスタンICC脱退へ さらなる脱退の動き懸念",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80353",
+          "excerpt": "ロシアが勢力圏と見なす中央アジアのタジキスタンは、ICC＝国際刑事裁判所からの脱退を国連に通知しました。 ICCをめぐっては、アメリカ、中国、ロシアの3か国の首脳が先週、管轄権を乱用してはならないと…",
+          "publishedAt": "2026-11-24T08:21:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80348",
+          "title": "【記者解説】エヌビディア フアン氏復帰 辞任から一転 背景は",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80348",
+          "excerpt": "アメリカの半導体大手「エヌビディア」は、中国の情報機関の協力者とされる女性と親密な関係にあったと報じられ、辞任したジェンスン・フアン氏がCEOに復帰したと発表しました。 ロサンゼルス支局の篠田彩記者…",
+          "publishedAt": "2026-11-24T07:29:49+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80347",
+          "title": "ロシアが年内に核弾頭搭載の衛星打ち上げ計画か ドイツ報道",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80347",
+          "excerpt": "ドイツのメディアは、ロシアが核弾頭を搭載した衛星を年内にも宇宙へ打ち上げる計画があるとする欧米の情報機関などの見方を伝えました。こうした衛星が低い軌道で爆発した場合、軌道上のすべての衛星が機能停止に陥…",
+          "publishedAt": "2026-11-24T07:27:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261124de80318",
+          "title": "インド モディ首相 ネパール復興に2500億円規模の支援表明",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261124de80318",
+          "excerpt": "インドのモディ首相は23日、隣国ネパールのシャー首相と会談し、ことし8月の大規模な土石流で甚大な被害を受けたネパールに復興費用などとして2500億円規模の支援を行うことを表明しました。",
+          "publishedAt": "2026-11-24T06:48:41+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80285",
+          "title": "ポーランドにロシアのミサイル落下受けNATOが警戒態勢強化へ",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80285",
+          "excerpt": "ポーランド東部で今月、ロシアの巡航ミサイルが落下したことを受けて、NATO＝北大西洋条約機構はロシアを非難するとともに、航空機を展開させるなど周辺の警戒態勢を強化する方針を決めました。",
+          "publishedAt": "2026-11-24T06:47:06+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80287",
+          "title": "ロシア拘束の北海道新聞記者に2回目の領事面会 健康に問題なし",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80287",
+          "excerpt": "ロシアに駐在する武藤大使らがロシアの治安機関に拘束されている北海道新聞の記者との2回目の「領事面会」を行い、健康状態に問題はないことが確認されました。日本大使館は、引き続き即時解放などを強く求めていく…",
+          "publishedAt": "2026-11-24T10:59:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80277",
+          "title": "韓国イ政権 重要閣僚交代へ 対米関係立て直しねらいか",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80277",
+          "excerpt": "韓国のイ・ジェミョン（李在明）政権は、外相や統一相などの重要閣僚を交代させる人事を発表しました。 情報共有などをめぐって、ぎくしゃくするアメリカとの関係の立て直しを図りたいねらいがあるとの見方も出て…",
+          "publishedAt": "2026-11-23T20:23:19+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80276",
+          "title": "ウクライナで被害住宅から2人救助 7歳の男の子は14時間後に",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80276",
+          "excerpt": "ウクライナの首都キーウ近郊では、ロシアによる攻撃で集合住宅が崩壊し、これまでに11人の死亡が確認されました。 一方、現場のがれきの下からは7歳の男の子が14時間後に、高齢の女性が22時間後に救助され…",
+          "publishedAt": "2026-11-23T19:58:35+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80209",
+          "title": "ゼレンスキー大統領“リビア沖でロシア艦艇を無人艇で攻撃”",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80209",
+          "excerpt": "ウクライナのゼレンスキー大統領は、北アフリカのリビア沖で、無人艇を使ってロシア軍の艦艇などを撃沈したと明らかにしました。",
+          "publishedAt": "2026-11-23T18:36:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80168",
+          "title": "北朝鮮 キム総書記“友好的な国との関係は強化”と強調",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80168",
+          "excerpt": "北朝鮮のキム・ジョンウン（金正恩）総書記は、ロシアなどの新たに駐在する大使たちから信任状を受け取って演説し、友好的な国との関係は強化していくと強調しました。",
+          "publishedAt": "2026-11-23T13:09:21+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        },
+        {
+          "id": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
+          "title": "イギリス人スイマー ホルムズ海峡を遠泳「戦争をやめるべき」",
+          "link": "https://news.web.nhk/newsweb/na/nd-20261123de80145",
+          "excerpt": "緊張が続く中東のホルムズ海峡で、イギリス人のスイマーが3日間にわたってあわせて15キロを泳ぎ切り、船舶への攻撃が海洋生物などに深刻な影響をおよぼすおそれがあると訴えました。",
+          "publishedAt": "2026-11-23T10:36:00+09:00",
+          "fetchedAt": "2026-11-24T14:10:38+09:00",
+          "summary": null
+        }
+      ],
+      "excluded": []
+    }
+  ]
+}
